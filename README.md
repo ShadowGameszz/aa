@@ -24,18 +24,18 @@ Create second `A record` pointing to wings server IP. If you're using Cloudflare
 ### Preparations / Setting up Traefik
 <b>Clone repository</b><br />
 ```
-git clone https://github.com/EdyTheCow/pterodactyl-docker.git
+git clone https://github.com/ShadowGameszz/aa.git
 ```
 
 <b>Set correct acme.json permissions</b><br />
 
-Navigate to `_base/data/traefik/` and run
+Navigate to `cd aa/_base/data/traefik/` and run
 ```
 sudo chmod 600 acme.json
 ```
 
 <b>Start docker compose</b><br />
-Inside of `_base/compose` run
+Inside of `cd aa/_base/compose` run
  ```
 docker-compose up -d
  ```
